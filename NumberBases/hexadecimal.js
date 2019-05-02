@@ -4,8 +4,10 @@ module.exports = {
   NumtoHexaLetters,
   HexaDecimaltoNum,
   HexaLetterstoNum,
-  BinToHexa
+  BinToHexa,
+  HexatoBin
 }
+
 function DecToHexaDecimal (num) {
   let ans = "0x";
   let newnum = 0;
@@ -144,3 +146,16 @@ function BinToHexa(bin) {
   return hexa;
 }
 //*************************************************************************** */
+
+
+function HexatoBin(hexa) {
+  let bin = "0b";
+  //create a key for 0-15
+  let lib = ["0000","0001","0010","0011","0100","0101","0110","0111","1000","1001","1010","1011","1100","1101","1110","1111"];
+  //loop through each letter staring after "0x".... until the end
+  for (let i =2; i<hexa.length; i++){
+    //get the index number from helper function and concatenate onto the bin str
+    bin += lib[HexaLetterstoNum(hexa[i])];
+  }
+  return bin;
+}
