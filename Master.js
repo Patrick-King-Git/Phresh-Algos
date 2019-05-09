@@ -5,6 +5,25 @@ const { findMedianSortedArrays}
     = require('./LeetCode/Workspace');
 
 /************************************************************/
+/* Linked Lists*/
+/************************************************************/
+
+const {LinkedLists} 
+    = require('./DataStructures/linkedLists')
+
+    /*
+    Methods available
+    *****************
+    PrintNodes
+    isEmpty
+    isOneNode
+    AddtoEnd(Node)
+    AddtoBeginning(Node)
+    Delete(Node)
+    DeleteAtHead
+    Search(Node)
+     */
+/************************************************************/
 /* Number Bases*/
 /************************************************************/
 const {DecToHexaDecimal,
@@ -20,6 +39,5 @@ const {NumberToDiffBase,
 const {NumtoBinary, 
     BinarytoNum} 
     = require('./NumberBases/binary');
-    
     
     
