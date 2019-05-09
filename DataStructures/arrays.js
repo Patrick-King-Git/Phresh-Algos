@@ -50,3 +50,9 @@ function Size(arr) {
     }
     return size;
 }
+
+
+// Find the second minimum element of an array
+// First non-repeating integers in an array
+// Merge two sorted arrays
+// Rearrange positive and negative values in an array
