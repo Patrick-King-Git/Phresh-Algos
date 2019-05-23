@@ -71,7 +71,7 @@ function FirstNonRepeatingInt(arr) {
         i++; 
     }
     while(i<arr.length) {
-        
+
     }
 }
 // Merge two sorted arrays
