@@ -53,6 +53,26 @@ function Size(arr) {
 
 
 // Find the second minimum element of an array
+function SecondMin(arr) {
+    for (let i of arr) {
+        if (i<min) {
+            var min2 = min;
+            min = i;
+        }
+
+    }
+}
 // First non-repeating integers in an array
+
+function FirstNonRepeatingInt(arr) { 
+    let i =0;
+    while(i<arr.length)
+        let one = arr[i].isInt ? arr[i], break : pass;
+        i++; 
+    }
+    while(i<arr.length) {
+        
+    }
+}
 // Merge two sorted arrays
 // Rearrange positive and negative values in an array
