@@ -5,7 +5,7 @@ module.exports = {
 
 function NumtoBinary(num) {
     let bin = "0b";
-    //storing bin numbers for later stack like
+    //storing bin numbers for later stack like structure
     let storage = [];
     while (num >0) {
         //find its remainder and store it
