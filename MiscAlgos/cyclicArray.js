@@ -33,7 +33,7 @@ function cyclicArray(arr){
 
 
 
-// find a cycle in an array using two runners; 1 runs at 2x speed of the other
+// find a cycle in an array using two runners; 1 runs at 2x speed of the otherq
 function isCycle(arr){
     let runner1 = arr[0],
         // initialize runner2 staggered ahead in order to later return true whenever arr[runner1] == arr[runner2]
@@ -77,3 +77,6 @@ console.log('*************************');
 console.log(cyclicArray(array4));
 console.log('*************************');
 console.log(cyclicArray(array5));
+
+
+
